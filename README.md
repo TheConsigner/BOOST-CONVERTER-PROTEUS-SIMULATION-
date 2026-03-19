@@ -4,9 +4,9 @@ This project implements a digitally controlled *DC-DC Boost Converter* using an 
 
 Technical Specifications
 * Microcontroller: ATmega328P (Arduino Uno)
-* *Switching Frequency:* $100kHz (Custom Timer 2 implementation)
+* *Switching Frequency:* 100kHz (Custom Timer 2 implementation)
 * *Input Voltage (V_in): 12V DC
-* *Output Voltage Range ($V_{out}$):* Adjustable 12V to 35V
+* *Output Voltage Range (V_out):* Adjustable 12V to 35V
 * *Control Method:* Proportional-Integral (PI) Feedback Loop
 * *Efficiency Features:* High-speed switching to minimize inductor size and output ripple.
 
